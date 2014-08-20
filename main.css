@@ -1,0 +1,151 @@
+
+/***************************
+****************************
+Elements 
+****************************
+***************************/
+* {
+    /*outline: 1px solid black;*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(92, 92, 92);
+    text-decoration: none;
+}
+
+
+
+/***************************
+****************************
+Top Nav  
+****************************
+***************************/
+.top {
+    text-align: right;
+    padding-top: 0.9em;
+    padding-right: 0.9em;
+}
+.top > a {
+    padding-left: 0.4em;
+    padding-left: 0.4em;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: small;
+}
+
+
+a.button.signup {
+    color: white;
+    background-color: rgb(8, 142, 218);
+    padding-top: 10px;
+    padding-right: 1em;
+    padding-bottom: 10px;
+    padding-left: 1em;
+}
+a.button {
+    border-radius: 3px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.5em;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(209, 201, 201);
+    font-size: smaller;
+}
+
+}
+.top> a:last-child {
+    margin-right: 1em;
+}
+
+
+/***************************
+****************************
+Center Search Section  
+****************************
+***************************/
+.search {
+    height: 10em;
+    width: 80%;
+    max-width: 550px;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -100px;
+    text-align: center;
+}
+.google-logo {
+    width: 17em;
+}
+
+div.searchContainer {
+    width: 100%;
+    position: relative;
+}
+
+.searchText {
+    display: block;
+    width: inherit;
+    margin-bottom: 1em;
+    height: 25px;
+}
+
+a.microphone {
+    position: absolute;
+    top: 0.3em;
+    right: 0.1em;
+}
+
+img.microphone {
+    height: 20px;
+}
+
+input.searchText:focus, 
+input.searchText:active {
+    border: rgb(100, 190, 255) solid 1px;
+    outline: none;
+}
+
+.search-button-group {
+    padding-top: 0.5em;
+}
+
+
+
+/***************************
+****************************
+Footer  
+****************************
+***************************/
+.foot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    border-top: 0.1em solid rgb(202, 200, 200);
+}
+
+.bottom-left {
+    text-align: start;
+}
+
+.bottom-right {
+    float: right;
+}
+
+.bottom-text-container {
+    display: inline-block;
+    padding: 1em;
+    padding-top: 10px;
+}
+
+.bottom-text-container > a {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: small;
+}
